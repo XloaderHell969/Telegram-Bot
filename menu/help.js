@@ -46,21 +46,21 @@ return `**[Tools]**
 
 ${pref}tourl <Reply img>
 
-[-DEFF-BOT-]`
+[-X-BOT-]`
 }
 exports.other = (pref) => {
 return `**[Other]**
 
 ${pref}cuaca <name place>
 
-[-DEFF-BOT-]`
+[-X-BOT-]`
 }
 exports.searching = (pref) => {
 return `**[Searching]**
 
 ${pref}searchimage <query>
 
-[-DEFF-BOT-]`
+[-X-BOT-]`
 }
 exports.downloader = (pref) => {
 return `**[Downloader]**
@@ -74,7 +74,7 @@ ${pref}facebook <url>
 ${pref}twitter <url>
 ${pref}spotify <url>
 
-[-DEFF-BOT-]`
+[-X-BOT-]`
 }
 exports.allmenu = (nama, pref) => {
   return `──「 **ALL MENU** 」──\nHai **${nama}!**\nOwner : Daffa
@@ -134,7 +134,7 @@ ${pref}burn <Reply img>
 ${pref}brazzers <Reply img>
 ${pref}beautiful <Reply img>
 
-「 __Deff__ 」`
+「 __Xloader__ 」`
 }
 
 exports.donasi = (nama) => {
@@ -142,20 +142,20 @@ exports.donasi = (nama) => {
 Hello ${nama}👋, Thanks for visiting this bot
 
 • DANA
-⤷ 6289501060783
+⤷ 6285171230159
 
-• Three Credit
-⤷ 628999699559
+• Pulsa
+⤷ 6285774523785
 
 Very Thanks for Your donation. 😁`
 	}
 
 exports.start = () => {
-return `[DEFF-BOT]
+return `[X-BOT]
 Bot ini siap membantu
 Untuk mendownload video, Dll
 
-Chat @D_E_F_F Jika ada kesalahan
+Chat @VenLinXD Jika ada kesalahan
 `
 }
 let file = require.resolve(__filename)
