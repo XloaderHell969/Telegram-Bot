@@ -56,7 +56,7 @@ let duck = gradient.pastel.multiline([
 	"█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█"
 ].join('\n'));
 console.log(duck);
-console.log(bgcolor('\nBase by : Fadhil Graphy\nInstagram : deff.ydhs\n', 'gray'))
+console.log(bgcolor('\nBase by : Fadhil Graphy\nInstagram : xloaderhell\n', 'gray'))
 setTimeout(function () {
     console.log(color('Success Conected!', 'magenta'))
 }, 1000);
@@ -96,7 +96,7 @@ async function sendCmd(anu, text) {
         return anu.editMessageText(text, {
 reply_markup: {
 inline_keyboard: [
-[{ text: 'My Instagram', url: 'instagram.com/deff.ydhs'}
+[{ text: 'My Instagram', url: 'instagram.com/xloaderhell'}
 ],
 [
 {text: 'Back' ,callback_data: 'command'}]
@@ -110,7 +110,7 @@ disable_web_page_preview: "true", parse_mode: "Markdown"}).then(a => {
         return ctx.editMessageText(men.allmenu(ctx.update.callback_query.message.chat.first_name+" "+ctx.update.callback_query.message.chat.last_name, prefa),{
 reply_markup: {
 inline_keyboard: [
-[{ text: 'My Instagram', url: 'instagram.com/deff.ydhs'}
+[{ text: 'My Instagram', url: 'instagram.com/xloaderhell'}
 ],
 [
 {text: 'Back' ,callback_data: 'command'}]
@@ -225,8 +225,8 @@ async function help(anu) {
         reply_markup: {
             inline_keyboard: [
             	[
-					{ text: 'Source', url: 'github.com/deff-y'},
-				    { text: 'Tutorial Penggunaan', url: 'https://youtu.be/dBx06IOjtBg'}
+					{ text: 'Source', url: 'github.com/xloaderhell'},
+				    { text: 'Tutorial Penggunaan', url: 'https://youtube.com/@xloaderhell666'}
 				],
                 [
                     { text: 'Command', callback_data: 'command' }                 ]
