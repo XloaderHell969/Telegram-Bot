@@ -77,7 +77,7 @@ ${pref}spotify <url>
 [-X-BOT-]`
 }
 exports.allmenu = (nama, pref) => {
-  return `──「 **ALL MENU** 」──\nHai **${nama}!**\nOwner : Daffa
+  return `──「 **ALL MENU** 」──\nHai **${nama}!**\nOwner : Velin
 
 **[Downloader]**
 
